@@ -6,6 +6,8 @@ const balace = document.getElementById("balance");
 const income = document.getElementById("income");
 const  expense = document.getElementById("expense");
 
+
+
 //to fixed  the error when we refresh the page if use to ternary operator to fixed the data in localStorage.
 let transactions = localStorage.getItem("transactions") !== null ? JSON.parse(localStorage.getItem("transactions")) : [];
 
@@ -118,3 +120,15 @@ function updateStatistics(){
     expense.textContent = updateExpense;
 }
 updateStatistics();
+
+// function pagePrint(transactionHistory){
+//   const printData = document.getElementById("transactionHistory");
+//   newWin = window.open("");
+//   newWin.document.write(printData.outerHTML);
+//   newWin.print();
+//   newWin.close();
+// }
+
+function printContent() {
+  window.print()
+}

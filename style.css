@@ -119,6 +119,9 @@
         padding: 1.8rem 0rem;
         box-shadow: var(--box-shadow);
     }
+    .trans-history button{
+        margin-left: 20.6rem;
+    }
     .records{
         display: flex;
         justify-content: space-around;
