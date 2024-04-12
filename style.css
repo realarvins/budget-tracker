@@ -54,6 +54,12 @@
         font-weight: 300;
         text-align: center;
     }
+    .heading .child-title{
+        font-size: 0.6rem;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+    }
 
     .trans-control{
         display: flex;
@@ -176,3 +182,5 @@
             font-size: 45%;
         }
     }
+
+

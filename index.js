@@ -129,6 +129,9 @@ updateStatistics();
 //   newWin.close();
 // }
 
-function printContent() {
+function printPage() {
+  var body = document.getElementById('body').innerHTML;
+  var data = document.getElementById('data').innerHTML;
+  document.getElementById('body').innerHTML = data;
   window.print()
 }
